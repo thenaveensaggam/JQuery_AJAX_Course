@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <style>
+        .card-body img{
+            margin-top: -50px;
+        }
+    </style>
+    <title>JQuery</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">JQuery AJAX CARDS</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################  START HERE  #########################-->
+
+    <!-- Header Info -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3>JQuery AJAX Cards <a href="#" id="load-ajax-btn" class="btn btn-outline-white">Get Data</a></h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mt-5">
+                            <div class="col-md-3">
+                                <div class="card" id="trainer-card">
+                                    <div class="card-body text-center">
+                                        <img id="image1" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card1_name" class="mt-2"></h4>
+                                        <p id="dob1" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image2" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card2_name" class="mt-2"></h4>
+                                        <p id="dob2" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image3" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card3_name" class="mt-2"></h4>
+                                        <p id="dob3" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image4" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card4_name" class="mt-2"></h4>
+                                        <p id="dob4" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image5" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card5_name" class="mt-2"></h4>
+                                        <p id="dob5" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image6" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card6_name" class="mt-2"></h4>
+                                        <p id="dob6" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image7" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card7_name" class="mt-2"></h4>
+                                        <p id="dob7" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img id="image8" src="" class="img-fluid img-thumbnail w-50 rounded-circle">
+                                        <h4 id="card8_name" class="mt-2"></h4>
+                                        <p id="dob8" class="lead text-muted">Trainer</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur earum eligendi incidunt, labore sapiente.</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f fa-2x text-teal"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="#">
+                                                    <i class="fab fa-twitter fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-4">
+                                                <a href="https://github.com/thenaveensaggam" target="_blank">
+                                                    <i class="fab fa-github fa-2x text-teal" ></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--########################  ENDS HERE   #########################-->
+</div>
+<div style="margin-top:500px;"></div>
+<!-- BODY ENDS -->
+<script src="../jquery/jquery-3.4.0.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/mdb.min.js"></script>
+<script src="15_app.js"></script>
+</body>
+</html>
